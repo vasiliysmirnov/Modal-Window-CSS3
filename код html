@@ -1,0 +1,12 @@
+<a href="[~[*id*]~]#win1" class="button button-green">Открыть окно 1</a>
+
+<!-- Модальное окно 1 -->
+<a href="[~[*id*]~]#x" class="overlay" id="win1"></a>
+<div class="popup">
+    <h2>Заголовок!</h2>
+      <p>Текст</p>
+<a class="close" title="Закрыть" href="[~[*id*]~]#close"></a>
+</div>
+
+
+<!-- [~[*id*]~] это для того чтобы окно закрывалось на любой странице modx evo -->
